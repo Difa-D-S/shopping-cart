@@ -1,0 +1,23 @@
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    max-width: 1350px;
+    margin: auto;
+    border-bottom: 2px solid #EEEEEE;
+    font-size: 18px;
+    padding: 0px 10px;
+  }
+ 
+  .items{
+    font-weight: 500;
+    min-width: 70px;
+  }
+  
+  @media screen and (max-width: 680px) {
+    .navigation{
+        display: none;
+    }
+  }
