@@ -1,6 +1,5 @@
 import React from "react";
 import { ProductCard } from "../component/ProductCard";
-import { Row } from 'react-bootstrap';
 
 export const Home = () => {
   const products = [
@@ -52,12 +51,10 @@ export const Home = () => {
   return (
     <>
       <main>
-        <section>
-          <Row>
+        <section className="products">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
-          </Row>
         </section>
       </main>
     </>
